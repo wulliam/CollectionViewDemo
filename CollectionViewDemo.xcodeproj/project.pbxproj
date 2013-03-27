@@ -18,6 +18,9 @@
 		27836CAB16FC286F00372526 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27836CAA16FC286F00372526 /* Default-568h@2x.png */; };
 		27836CAE16FC286F00372526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27836CAD16FC286F00372526 /* ViewController.m */; };
 		27836CB116FC286F00372526 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27836CAF16FC286F00372526 /* ViewController.xib */; };
+		27836CB816FC2CD300372526 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27836CB716FC2CD300372526 /* NibCell.xib */; };
+		27836CBB16FC337600372526 /* CVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27836CBA16FC337600372526 /* CVCell.m */; };
+		27836CBD16FC343A00372526 /* CVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27836CBC16FC343A00372526 /* CVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		27836CAC16FC286F00372526 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		27836CAD16FC286F00372526 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27836CB016FC286F00372526 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		27836CB716FC2CD300372526 /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
+		27836CB916FC337600372526 /* CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCell.h; sourceTree = "<group>"; };
+		27836CBA16FC337600372526 /* CVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCell.m; sourceTree = "<group>"; };
+		27836CBC16FC343A00372526 /* CVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				27836CA316FC286F00372526 /* AppDelegate.h */,
+				27836CBC16FC343A00372526 /* CVCell.xib */,
+				27836CB716FC2CD300372526 /* NibCell.xib */,
+				27836CB916FC337600372526 /* CVCell.h */,
+				27836CBA16FC337600372526 /* CVCell.m */,
 				27836CA416FC286F00372526 /* AppDelegate.m */,
 				27836CAC16FC286F00372526 /* ViewController.h */,
 				27836CAD16FC286F00372526 /* ViewController.m */,
@@ -163,6 +174,8 @@
 				27836CA916FC286F00372526 /* Default@2x.png in Resources */,
 				27836CAB16FC286F00372526 /* Default-568h@2x.png in Resources */,
 				27836CB116FC286F00372526 /* ViewController.xib in Resources */,
+				27836CB816FC2CD300372526 /* NibCell.xib in Resources */,
+				27836CBD16FC343A00372526 /* CVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +189,7 @@
 				27836CA116FC286F00372526 /* main.m in Sources */,
 				27836CA516FC286F00372526 /* AppDelegate.m in Sources */,
 				27836CAE16FC286F00372526 /* ViewController.m in Sources */,
+				27836CBB16FC337600372526 /* CVCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +310,7 @@
 				27836CB616FC286F00372526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CVCell.h
 //  CollectionViewDemo
 //
 //  Created by wu liang on 3/22/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface CVCell : UICollectionViewCell
+@property (nonatomic, strong) IBOutlet UILabel *titleLabel;
 @end
